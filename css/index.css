@@ -1,0 +1,156 @@
+a,p,html,body,table,h1,h2,h3,h4,h5,h6,ul,li,dt,dd,dl,tr,th,img,input,div
+,fieldset,legend{	
+					list-style: none;
+					padding:0;
+					margin:0;
+				}
+.yetou{
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+	height: 36px;
+}
+.yetou1{
+	width: 154px;
+	height: 36px;
+	line-height: 36px;
+	margin-left:75px; 
+	color:#333333;
+	font-size: 14px;
+}
+.ulID1 {
+	margin-right: 88px;
+	height: 36px;
+	width: 210px;
+}
+.ulID1 li{
+	float: left;
+	width:33.3%;
+	height: 36px;
+	font-size:14px;
+	line-height: 36px;
+}
+.collect{
+	width: 80.0667px;
+}
+.ulID1 li {
+	text-align: center;
+	background: url(../img/1.jpg)  no-repeat right;
+}
+
+.ulID1 li a{
+	text-decoration: none;
+	width: 28px;
+	height: 19px;
+	color:#666666;
+	text-align: center;
+}
+.ulID1 li a:hover{
+	color:red;
+}
+.yetou2{
+	width:100%;
+	height: 48px;
+}
+/*搜索*/
+.sousuo{
+	overflow: hidden;
+	width: 1110px;
+	height: 106px;
+	margin:0 auto;
+	margin-bottom: 20px;
+	background-color: red;
+}
+.sousuo1{
+	display: block;
+	width: 228px;
+	height: 70px;
+	margin-top: 18px;
+	background: url(../img/1.gif);
+}
+.serach{
+	margin-left:395px;
+	width: 342px;
+	height: 40px;
+	margin-bottom: 40px;
+
+}
+/*header*/
+header{
+	width: 100%;
+	height: 49px;
+	background-color:#0064b3;
+
+}
+.header-1{
+	color:white;
+	float:left;
+	width: 160px;
+	height: 49px;
+	background-color: #c11962;
+	line-height: 49px;
+	font-size:18px;
+}
+.ulId2{
+	width: 800px;
+	float:left;
+	height: 49px;
+
+}
+.ulId2 li{
+	float: left;
+	width:12.5%;
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+	background:url(../img/3.jpg) no-repeat right center;
+	
+}
+.ulId2 .li8{
+	background: none;
+}
+.ulId2 li a{
+	color:#ffffff;
+	line-height: 49px;
+	text-align: center;
+	text-decoration:none;
+	
+}
+
+.fenlei{
+	margin-left: 32px;
+	float: left;
+	width:54px;
+	height: 49px;
+	background:#c11962 url(../img/1.png) right center no-repeat;
+	background-position: 28px 17px;
+}
+#lunbo{
+	position: relative;
+	width: 1273px;
+	height: 395px;
+	overflow: hidden;
+	}
+.vip{
+	width: 1200px;
+	height: 304px;
+	background:url(../img/2.gif);
+	margin: 18px auto 30px;
+}
+.hot{
+	width: 1200px;
+	height: 90px;
+	background:url(../img/7.jpg);
+	margin:0 auto;
+}
+.miaosha{
+	margin:0 auto;
+	width:1200px;
+	height: 83px;
+	background:url(../img/8.jpg) no-repeat right;
+}
+.daojishi{
+	width:355px;
+	height: 83px;
+	background-color: red;
+}

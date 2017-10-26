@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>淘淘乐</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<!-- 页头 -->
+<div class="yetou">
+	<div class="yetou1">您好,欢迎来到乐淘网!</div>
+	<ul class="ulID1">
+		<li class="login"><a href="#">登陆</a></li>
+		<li class="regester"><a href="#">注册</a></li>
+		<li class="collect"><a href="#">我的收藏</a></li>
+	</ul>
+</div>
+<div class="yetou2"><a href="#"><img src="img/2.jpg" width="100%" height="48.2333px"></a></div>
+<!-- 搜索 -->
+<div class="sousuo">
+	<a href="#" class="sousuo1"></a>
+	<!-- <input class="serach" type="text"/><input type="submit" value="搜索" /> -->
+</div>
+<!-- header -->
+<header>
+	<div class="fenlei"></div>
+	<div class="header-1">商品分类</div>
+	<ul class="ulId2">
+		<li><a href="">首页</a></li>
+		<li><a href="">运动休闲</a></li>
+		<li><a href="">男鞋</a></li>
+		<li><a href="">女鞋</a></li>
+		<li><a href="">帆布鞋</a></li>
+		<li><a href="">户外鞋</a></li>
+		<li><a href="">VIP专区</a></li>
+		<li class="li8"><a href="">品牌</a></li>
+	</ul>
+	
+</header>
+<!-- 轮播图 -->
+<div id="lunbo"></div>
+<!-- vip -->
+<div class="vip"></div>
+<div class="hot"></div>
+<!-- 秒杀 -->
+<div class="miaosha">
+	<div class="daojishi"></div>
+	
+</div>
+<div class="hot1">
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/SliderPlugInjQuery.js" ></script>
+<script type="text/javascript">
+$(function(){
+	$("#lunbo").Slider({
+					"width" :1273,
+					"height" : 395,		
+					"imgs" : ["img/4.jpg","img/5.jpg","img/6.jpg"],
+					"timeSpace" : 3000,
+					"btnObj" : {
+						"width":13,
+						"height":13,
+						"bgColor":"white",
+						"highBgColor":"#f2972c",
+						"isCircle": true
+					}
+			});
+	
+	});
+</script>
